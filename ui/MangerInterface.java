@@ -130,15 +130,15 @@ public class MangerInterface {
 
         private MyRenderer(){
 //            rootIcon = new ImageIcon(PathUtils.getRealPath("systemManage.png"));
-            rootIcon = new ImageIcon("D:\\IDEA-workspace\\图书馆javaswing\\images\\systemManage.png");
+            rootIcon = new ImageIcon("文件路径+systemManage.png");
 //            ReaderTypeMangerIcon = new ImageIcon(PathUtils.getRealPath("statisticsManage.png"));
-            ReaderTypeMangerIcon = new ImageIcon("D:\\IDEA-workspace\\图书馆javaswing\\images\\statisticsManage.png");
+            ReaderTypeMangerIcon = new ImageIcon("文件路径+statisticsManage.png");
 //            BookMangerIcon = new ImageIcon(PathUtils.getRealPath("bookManage.png"));
-            BookMangerIcon = new ImageIcon("D:\\IDEA-workspace\\图书馆javaswing\\images\\bookManage.png");
+            BookMangerIcon = new ImageIcon("文件路径+bookManage.png");
 //            ReaderMangerIcon = new ImageIcon(PathUtils.getRealPath("userManage.png"));
-            ReaderMangerIcon = new ImageIcon("D:\\IDEA-workspace\\图书馆javaswing\\images\\userManage.png");
+            ReaderMangerIcon = new ImageIcon("文件路径+userManage.png");
 //            BorrowMangerIcon = new ImageIcon(PathUtils.getRealPath("borrowManage.png"));
-            BorrowMangerIcon = new ImageIcon("D:\\IDEA-workspace\\图书馆javaswing\\images\\borrowManage.png");
+            BorrowMangerIcon = new ImageIcon("文件路径+borrowManage.png");
         }
         //当绘制树的每个结点都会调用该方法
         @Override
