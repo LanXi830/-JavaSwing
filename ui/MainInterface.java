@@ -25,9 +25,8 @@ public class MainInterface {
 
         //设置窗口内容
 //        BackGroundPanel bgPanel = new BackGroundPanel(ImageIO.read(new File(PathUtils.getRealPath("library.jpg"))));
-//
-
-        BackGroundPanel bgPanel = new BackGroundPanel(ImageIO.read(new File("D:\\IDEA-workspace\\图书馆javaswing\\images\\library.jpg")));
+//文件路径自行修改
+        BackGroundPanel bgPanel = new BackGroundPanel(ImageIO.read(new File("文件路径library.jpg")));
         //登录
         Box vBox = Box.createVerticalBox();
 
