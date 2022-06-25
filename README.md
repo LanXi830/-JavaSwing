@@ -1,4 +1,4 @@
-# lanxi
+# 图书管理系统，但是JavaSwing
 这是一个，集IDEA下的JavaSwing组件开发的图书管理系统。
 
 1.数据库的准备 MySQL booksdb.sql
