@@ -7,8 +7,9 @@ import java.awt.*;
 
 /**
  * # -*- coding:utf-8 -*- #
- * 作者:峰回路转
+ * 作者:lanxi
  * 日期:2021年11月12日21时35分
+ *该方法用于限制输入只能为数字 自行使用
  */
 public class IntDocument extends PlainDocument {
     private static final long serialVersionUID = 1L;
