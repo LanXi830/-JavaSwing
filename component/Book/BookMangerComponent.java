@@ -124,7 +124,7 @@ public class BookMangerComponent extends Box {
         Statement sql;
         ResultSet rs;
         try {
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/booksdb", "root", "genius816");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/booksdb", "name", "password");
             sql = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
             rs = sql.executeQuery("SELECT*FROM book");
             int i = 0, recordAmount = 0;
