@@ -108,7 +108,7 @@ public class DelectBookDialog extends JDialog {
                 Statement stmt;
                 Connection con = null;
                 try {
-                    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/booksdb", "root", "genius816");
+                    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/booksdb", "name", "password");
                     String sql = "delete from book where bkID='" + bkid + "'";
 
                     stmt = con.createStatement();
